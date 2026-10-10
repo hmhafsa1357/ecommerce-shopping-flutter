@@ -1,0 +1,30 @@
+name: ecommerce_shopping_app
+description: "A Flutter shopping app with a product catalog, search and filters, product details and a cart."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Network requests to the product API
+  http: ^1.2.2
+
+  # Saves the cart and settings on the device
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
